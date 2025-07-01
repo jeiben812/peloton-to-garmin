@@ -12,8 +12,8 @@ on:
       saveLocalCopy:
         type: boolean
         default: false
-  # schedule:
-  #  - cron: '0 * * * *'
+  schedule:
+   - cron: '0 * * * *'
 
 env:
   OUTPUT_DIR: /app/output
