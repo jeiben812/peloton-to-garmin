@@ -14,6 +14,7 @@ on:
         default: false
   schedule:
     - cron: '0 * * * *'
+  suspend: true
 
 env:
   OUTPUT_DIR: /app/output
